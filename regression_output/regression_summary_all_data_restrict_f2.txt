@@ -1,0 +1,38 @@
+                               Mixed Linear Model Regression Results
+===================================================================================================
+Model:                           MixedLM               Dependent Variable:               y         
+No. Observations:                2152                  Method:                           REML      
+No. Groups:                      168                   Scale:                            0.1108    
+Min. group size:                 8                     Log-Likelihood:                   -1018.5363
+Max. group size:                 15                    Converged:                        Yes       
+Mean group size:                 12.8                                                              
+---------------------------------------------------------------------------------------------------
+                                                         Coef.  Std.Err.   z    P>|z| [0.025 0.975]
+---------------------------------------------------------------------------------------------------
+Intercept                                                 3.869    0.421  9.188 0.000  3.044  4.694
+C(polit_party, Treatment('Independent'))[T.Democrat]     -0.008    0.063 -0.127 0.899 -0.132  0.116
+C(polit_party, Treatment('Independent'))[T.Other]        -0.190    0.095 -2.008 0.045 -0.376 -0.005
+C(polit_party, Treatment('Independent'))[T.Republican]   -0.264    0.063 -4.224 0.000 -0.387 -0.142
+C(race, Treatment('White'))[T.Asian]                      0.146    0.350  0.417 0.677 -0.540  0.833
+C(race, Treatment('White'))[T.Black or African American]  0.161    0.250  0.645 0.519 -0.329  0.651
+C(race, Treatment('White'))[T.Multiracial]                0.185    0.238  0.777 0.437 -0.282  0.652
+C(race, Treatment('White'))[T.Other]                      0.517    0.431  1.198 0.231 -0.329  1.362
+C(race, Treatment('White'))[T.Prefer not to disclose]     0.386    0.608  0.634 0.526 -0.807  1.578
+C(sex, Treatment('Male'))[T.CONSENT REVOKED]              0.082    0.610  0.135 0.893 -1.113  1.278
+C(sex, Treatment('Male'))[T.Female]                      -0.016    0.097 -0.163 0.871 -0.206  0.175
+C(education)[T.2.0]                                      -0.223    0.440 -0.507 0.612 -1.085  0.639
+C(education)[T.3.0]                                      -0.285    0.435 -0.656 0.512 -1.138  0.567
+C(education)[T.4.0]                                      -0.096    0.449 -0.214 0.831 -0.977  0.785
+C(education)[T.5.0]                                      -0.267    0.435 -0.614 0.539 -1.121  0.586
+C(education)[T.6.0]                                       0.117    0.522  0.224 0.823 -0.906  1.139
+C(education)[T.7.0]                                      -0.127    0.450 -0.283 0.777 -1.009  0.754
+C(education)[T.8.0]                                      -0.080    0.779 -0.103 0.918 -1.608  1.448
+C(education)[T.9.0]                                       0.061    0.738  0.083 0.934 -1.384  1.507
+cases_avg_per_100k                                       -0.006    0.008 -0.764 0.445 -0.021  0.009
+restriction_sum                                           0.053    0.013  4.072 0.000  0.027  0.078
+ueRate                                                    0.063    0.014  4.519 0.000  0.036  0.091
+mean_social_network_health                                0.029    0.009  3.145 0.002  0.011  0.047
+safety_measures                                           0.162    0.014 11.441 0.000  0.134  0.189
+weekly_income_self_cat_num                               -0.018    0.015 -1.224 0.221 -0.048  0.011
+PROLIFIC_PID Var                                          0.346    0.130                           
+===================================================================================================

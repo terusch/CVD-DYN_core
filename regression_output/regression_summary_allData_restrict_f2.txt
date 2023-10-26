@@ -1,0 +1,43 @@
+                                       Mixed Linear Model Regression Results
+===================================================================================================================
+Model:                                 MixedLM                    Dependent Variable:                    y         
+No. Observations:                      15151                      Method:                                REML      
+No. Groups:                            1513                       Scale:                                 0.1125    
+Min. group size:                       1                          Log-Likelihood:                        -7017.6970
+Max. group size:                       15                         Converged:                             Yes       
+Mean group size:                       10.0                                                                        
+-------------------------------------------------------------------------------------------------------------------
+                                                                         Coef.  Std.Err.   z    P>|z| [0.025 0.975]
+-------------------------------------------------------------------------------------------------------------------
+Intercept                                                                 3.420    0.136 25.130 0.000  3.154  3.687
+C(polit_party, Treatment('Independent'))[T.Democrat]                      0.093    0.018  5.242 0.000  0.058  0.128
+C(polit_party, Treatment('Independent'))[T.Other]                        -0.005    0.030 -0.160 0.873 -0.064  0.054
+C(polit_party, Treatment('Independent'))[T.Republican]                   -0.143    0.026 -5.538 0.000 -0.193 -0.092
+C(race, Treatment('White'))[T.American Indian/Alaska Native]              0.152    0.165  0.920 0.358 -0.172  0.477
+C(race, Treatment('White'))[T.Asian]                                      0.032    0.039  0.824 0.410 -0.045  0.110
+C(race, Treatment('White'))[T.Black or African American]                  0.014    0.045  0.302 0.763 -0.075  0.103
+C(race, Treatment('White'))[T.Multiracial]                                0.033    0.052  0.645 0.519 -0.068  0.135
+C(race, Treatment('White'))[T.Native Hawaiian or Other Pacific Islander]  0.080    0.319  0.251 0.802 -0.545  0.705
+C(race, Treatment('White'))[T.Other]                                      0.038    0.093  0.404 0.687 -0.145  0.221
+C(race, Treatment('White'))[T.Prefer not to disclose]                     0.162    0.149  1.082 0.279 -0.131  0.454
+C(sex, Treatment('Male'))[T.CONSENT REVOKED]                             -0.348    0.200 -1.745 0.081 -0.739  0.043
+C(sex, Treatment('Male'))[T.Female]                                      -0.033    0.023 -1.432 0.152 -0.079  0.012
+C(sex, Treatment('Male'))[T.Female, Female]                               0.130    0.435  0.298 0.765 -0.723  0.983
+C(sex, Treatment('Male'))[T.Prefer not to say]                            0.001    0.443  0.003 0.998 -0.867  0.869
+C(education)[T.2.0]                                                       0.214    0.140  1.528 0.127 -0.060  0.488
+C(education)[T.3.0]                                                       0.198    0.137  1.442 0.149 -0.071  0.467
+C(education)[T.4.0]                                                       0.144    0.140  1.028 0.304 -0.130  0.417
+C(education)[T.5.0]                                                       0.176    0.137  1.285 0.199 -0.093  0.445
+C(education)[T.6.0]                                                       0.221    0.149  1.489 0.137 -0.070  0.513
+C(education)[T.7.0]                                                       0.240    0.140  1.720 0.085 -0.033  0.513
+C(education)[T.8.0]                                                       0.244    0.168  1.451 0.147 -0.086  0.574
+C(education)[T.9.0]                                                       0.243    0.158  1.540 0.124 -0.066  0.553
+C(education)[T.10.0]                                                      0.374    0.303  1.235 0.217 -0.220  0.968
+cases_avg_per_100k                                                       -0.006    0.003 -2.033 0.042 -0.013 -0.000
+restriction_sum                                                           0.049    0.005 10.659 0.000  0.040  0.058
+ueRate                                                                    0.035    0.005  6.773 0.000  0.025  0.045
+mean_social_network_health                                                0.007    0.004  1.656 0.098 -0.001  0.014
+safety_measures                                                           0.141    0.005 27.407 0.000  0.131  0.151
+weekly_income_self_cat_num                                               -0.003    0.005 -0.559 0.576 -0.013  0.007
+PROLIFIC_PID Var                                                          0.181    0.023                           
+===================================================================================================================

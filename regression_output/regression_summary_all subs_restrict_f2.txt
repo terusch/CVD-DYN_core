@@ -1,0 +1,20 @@
+                Mixed Linear Model Regression Results
+======================================================================
+Model:                  MixedLM     Dependent Variable:     y         
+No. Observations:       13249       Method:                 REML      
+No. Groups:             1014        Scale:                  0.1210    
+Min. group size:        8           Log-Likelihood:         -6485.8571
+Max. group size:        15          Converged:              Yes       
+Mean group size:        13.1                                          
+----------------------------------------------------------------------
+                           Coef.  Std.Err.    z    P>|z| [0.025 0.975]
+----------------------------------------------------------------------
+Intercept                   3.768    0.016 242.380 0.000  3.738  3.799
+cases_avg_per_100k         -0.005    0.003  -1.361 0.174 -0.011  0.002
+restriction_sum             0.047    0.005  10.001 0.000  0.038  0.057
+ueRate                      0.039    0.006   6.825 0.000  0.028  0.050
+mean_social_network_health  0.011    0.004   2.462 0.014  0.002  0.019
+safety_measures             0.153    0.006  26.266 0.000  0.141  0.164
+weekly_income_self_cat_num -0.003    0.006  -0.497 0.619 -0.014  0.008
+PROLIFIC_PID Var            0.235    0.033                            
+======================================================================
